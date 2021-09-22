@@ -1,0 +1,8 @@
+# Enable WOL on your network card
+[Math]
+MACAddress= #MAC ADDRESS GOES HERE
+
+[Link]
+NamePolicy=kernel database onboard slot path
+MACAddressPolicy=persistent
+WakeOnLan=magic
